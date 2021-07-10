@@ -1,6 +1,21 @@
+import List from "./List";
+
 function App() {
+
+  const itemsArray = [
+    { 
+      text: "Messi"
+    },
+    { 
+      text: "Neymar"
+    },
+    { 
+      text: "Ronaldo"
+    },
+  ];
+
   return (
-    <h1>TEST</h1>
+    <List items={itemsArray}/>
   );
 }
 
